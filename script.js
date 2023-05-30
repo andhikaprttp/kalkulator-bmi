@@ -13,7 +13,7 @@ function hitungBMI() {
 
             // Menentukan kategori BMI
             if (bmi < 18.5) {
-                resultElement.innerHTML += " (Kurus)";
+                hasil.innerHTML += " (Kurus)";
             } else if (bmi >= 18.5 && bmi < 25) {
                 resultElement.innerHTML += " (Normal)";
             } else if (bmi >= 25 && bmi < 30) {
