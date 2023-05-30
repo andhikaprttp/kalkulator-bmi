@@ -19,7 +19,7 @@ function hitungBMI() {
             } else if (bmi >= 25 && bmi < 30) {
                 hasil.innerHTML += " (Gemuk)";
             } else {
-                resultElement.innerHTML += " (Obesitas)";
+                hasil.innerHTML += " (Obesitas)";
             }
         }
             
