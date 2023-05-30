@@ -9,7 +9,7 @@ function hitungBMI() {
             
                         // Menampilkan hasil BMI
             let hasil = document.getElementById("hasil");
-            resultElement.innerHTML = "BMI Anda: " + bmi.toFixed(2);
+            hasil.innerHTML = "BMI Anda: " + bmi.toFixed(2);
 
             // Menentukan kategori BMI
             if (bmi < 18.5) {
