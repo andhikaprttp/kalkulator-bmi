@@ -1,4 +1,4 @@
-function hitungBMI() {
+function calculateBMI() {
             let berat = parseFloat(document.getElementById("berat").value);
  
             let tinggi = parseFloat(document.getElementById("tinggi").value            // Konversi tinggi dari cm ke meter
