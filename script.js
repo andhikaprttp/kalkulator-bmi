@@ -7,3 +7,9 @@ function hitungBMI() {
             // Menghitung BMI
             let bmi = berat / (tinggidiMeter * tinggidiMeter););
             
+                        // Menampilkan hasil BMI
+            let resultElement = document.getElementById("result");
+            resultElement.innerHTML = "BMI Anda: " + bmi.toFixed(2);
+
+        
+            
