@@ -17,7 +17,7 @@ function hitungBMI() {
             } else if (bmi >= 18.5 && bmi < 25) {
                 hasil.innerHTML += " (Normal)";
             } else if (bmi >= 25 && bmi < 30) {
-                resultElement.innerHTML += " (Gemuk)";
+                hasil.innerHTML += " (Gemuk)";
             } else {
                 resultElement.innerHTML += " (Obesitas)";
             }
